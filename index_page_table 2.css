@@ -1,0 +1,57 @@
+/* Navbar  */
+.hero nav ul{
+  flex-wrap: wrap;
+}
+.content{
+  position: absolute;
+  top: 30%;
+}
+.newsletter form{
+  width: 320px;
+}
+.newsletter form input:nth-child(2){
+  transform: scale(0.95);
+  right: 6px;
+}
+/* About  */
+.main{
+  flex-direction: column;
+}
+.image{
+  width: 300px;
+  height: 500px;
+  margin: 0;
+}
+.about img{
+  max-width: 300px;
+  max-height: 500px;
+}
+.about-text{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+}
+.about-text h2{
+  font-size: 70px;
+  font-weight: 800;
+  margin-top: -0px;
+}
+/* Service  */
+.service h2{
+  font-size: 65px;
+
+}
+.box{
+  flex-wrap: wrap;
+}
+/* Contact  */
+.contact p{
+  margin: 30px 20px;
+}
+
+/* Footer  */
+footer p:nth-child(2) {
+  margin: inherit 30px;
+}

@@ -1,0 +1,13 @@
+/* Navbar  */
+.hero .logo{
+  display: none;
+}
+
+
+
+.btn{
+  display: none;}
+
+.hero .content{
+  transform: scale(0.9);
+}

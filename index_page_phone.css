@@ -1,0 +1,38 @@
+/* Navbar  */
+.content h1{
+  font-size: 60px;
+}
+.newsletter form{
+  width: 250px;
+  height: 80%;
+}
+.newsletter form input:nth-child(1){
+  width: 100%;
+  height: 36px;
+}
+
+.newsletter form input:nth-child(2){
+  top: 6px;
+  right: 6px;
+  padding: 6px 13px;
+}
+/* About  */
+
+.about-text{
+  width: 220px;
+  margin-top: -80px;
+}
+.about-text h1{
+  font-size: 40px;
+
+}
+.about img{
+  max-width: 220px;
+}
+.image{
+  width: 220px;
+}
+/* Service  */
+.card{
+  width: 240px;
+}
