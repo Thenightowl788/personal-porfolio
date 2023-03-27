@@ -29,9 +29,12 @@ nav{
  span{
   color: #f9004d;
 }
-
+.hero nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .hero nav ul li{
-  display: inline-block;
   list-style: none;
   padding: 10px  25px;
 }
@@ -107,7 +110,14 @@ box-shadow: 0 0 5px #000, 0 0 15px #858585 ;
 top: 6px;
 right: 6px ;
 cursor: pointer;
+transition: 0.25s;
 
+}
+.newsletter form input:last-child:hover{
+  transform: scale(1.03);
+}
+.newsletter form input:last-child:active{
+  opacity: 0.7;
 }
 
 /*ABout Section*/
