@@ -198,7 +198,17 @@ transition: 0.25s;
   margin: 30px 0px;
   text-align: center;
   color: white;
-  
+  animation: transform 5s infinite;
+}
+
+@keyframes transform {
+  0%   {color: red; font-size: 75px;}
+  25%  {color: yellow; font-size: 77px;}
+  50%  {color: blue;font-size: 80px;}
+  75% {color: green; font-size: 90px;}
+  90% {color: white; font-size: 95px;}
+
+  100% {color: white; font-size: 100px;}
 }
 
 .box{
