@@ -5,7 +5,7 @@
   font-family: 'josefin sans', sans-serif;
 }
 /*navbar*/
-.hero{
+#hero{
   height: 100vh;
   width: 100%;
   background: url(backg_home.jpg) no-repeat center center/cover ;
@@ -29,25 +29,25 @@ nav{
  span{
   color: #f9004d;
 }
-.hero nav ul{
+#hero nav ul{
   display: flex;
   justify-content: center;
-  align-items: c;
+  align-items: center;
 }
-.hero nav ul li{
+#hero nav ul li{
   
   list-style: none;
   padding: 10px  25px;
 }
 
-.hero nav ul li a{
+#hero nav ul li a{
   color: black;
   text-decoration: none;
   font-weight: bold;
   text-transform: capitalize;
   transition: all .2s;
 }
-.hero nav ul li a:hover{
+#hero nav ul li a:hover{
   color: #f9004d;
 }
 .btn{
@@ -124,7 +124,7 @@ transition: 0.25s;
 }
 
 /*ABout Section*/
-.about{
+#about{
   width: 100%;
   padding: 78px 0px;
   background: #191919;
@@ -137,7 +137,7 @@ transition: 0.25s;
   align-items: center;
   justify-content: space-around;
 }
-.about img{
+#about img{
   height: auto;
   width: 100%;
   max-width: 420px;
@@ -172,7 +172,7 @@ transition: 0.25s;
   line-height: 28px ;
   color: #fcfc;
 }
-.about button{
+#about button{
   background-color: #f9004d;
   color: white;
   font-weight: bold;
@@ -183,17 +183,17 @@ transition: 0.25s;
   transition: 0.25s;
 
 }
-.about button:hover{
+#about button:hover{
   background-color: transparent;
   border: 2px solid #f9004d;
 }
 /* Service Sectionn */
-.service{
+#service{
   width: 100%;
   padding: 100px 0px;
   background: #101010;
 }
-.service h2{
+#service h2{
   font-size: 75px;
   margin: 30px 0px;
   text-align: center;

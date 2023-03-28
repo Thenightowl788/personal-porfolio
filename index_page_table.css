@@ -1,5 +1,5 @@
 /* Navbar  */
-.hero .logo{
+#hero .logo{
   display: none;
 }
 
@@ -8,6 +8,6 @@
 .btn{
   display: none;}
 
-.hero .content{
+#hero .content{
   transform: scale(0.9);
 }

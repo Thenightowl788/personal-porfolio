@@ -1,5 +1,5 @@
 /* Navbar  */
-.hero nav ul{
+#hero nav ul{
   flex-wrap: wrap;
 }
 .content{
@@ -22,7 +22,7 @@
   height: 500px;
   margin: 0;
 }
-.about img{
+#about img{
   max-width: 300px;
   max-height: 500px;
 }
@@ -39,7 +39,7 @@
   margin-top: -0px;
 }
 /* Service  */
-.service h2{
+#service h2{
   font-size: 65px;
 
 }
